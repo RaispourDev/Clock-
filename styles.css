@@ -60,3 +60,36 @@ body {
     height: 1px;
 }
 
+/*digital clock in default mode*/
+.digital-clock{
+    display: none;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+/*toggle switch*/
+#toggle-btn{
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    background-color: #ffffffaa;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: background 0.3s ease;
+}
+
+#toggle-btn:hover{
+    background-color: #ffffff;
+}
+
+/*digital clock in active mode*/
+.digital-mode . analog-clock{
+    display: none;
+}
+
+.digital-mode . analog-clock{
+    display: block;
+}
