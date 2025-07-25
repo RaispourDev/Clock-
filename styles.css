@@ -86,10 +86,10 @@ body {
 }
 
 /*digital clock in active mode*/
-.digital-mode . analog-clock{
+.digital-mode .analog-clock{
     display: none;
 }
 
-.digital-mode . analog-clock{
+.digital-mode .analog-clock{
     display: block;
 }
