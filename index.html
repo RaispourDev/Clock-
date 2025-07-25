@@ -7,12 +7,19 @@
     <link rel="icon" href="https://fav.farm/✅">
 </head>
 <body>
-    <div class="clock">
-        <div class="clock-face">
+    <!--analog clock-->
+    <div class="clock-container">
+        <div class="clock analog-clock">
             <div class="hand hour-hand"></div>
             <div class="hand min-hand"></div>
             <div class="hand second-hand"></div>
         </div>
+    <!--digital clock-->
+        <div class="digital-clock">
+            <span id="digital-time">00:00:00</span>
+        </div>
+    <!--changing clock face button-->
+        <button id="toggle-btn">Digital</button>
     </div>
 
     <link rel="stylesheet" href="styles.css">
